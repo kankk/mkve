@@ -1,5 +1,8 @@
 <template>
-  <div>Detail</div>
+  <div>
+    <p>Detail</p>
+    <p>Username: {{ $store.state.system.username }}</p>
+  </div>
 </template>
 
 <script lang="ts">
