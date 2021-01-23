@@ -5,11 +5,11 @@ const store = {
   }),
   mutations: {
     // 增
-    increment(state) {
+    increment(state: any) {
       state.count += 1;
     },
     // 减
-    reduction(state) {
+    reduction(state: any) {
       state.count -= 1;
     },
   },
