@@ -22,5 +22,5 @@
 - [ ] 添加`Node(Koa2)`
 
 ### Project
-- [ ] git-commit message 规范限制
+- [x] `husky`+`lint-staged` 规范限制
 - [ ] 更新`package`版本脚本
