@@ -1,12 +1,7 @@
 import * as VueRouter from 'vue-router';
+import { getVueRoutes } from './routes';
 
-import Home from '../pages/Home.vue';
-import Detail from '../pages/Detail.vue';
-
-const routes = [
-  { path: '/home', component: Home },
-  { path: '/detail', component: Detail },
-];
+const routes = getVueRoutes();
 
 // 创建 vue-router 实例
 const router = VueRouter.createRouter({

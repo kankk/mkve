@@ -1,18 +1,18 @@
 <template>
-  <a-layout class="mk-content">
+  <div>
+    Button
     <router-view />
-  </a-layout>
+  </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'MkContent',
+  name: 'Button',
 });
 </script>
 
-<style lang="scss">
-.mk-content {
-}
+<style lang="scss" scoped>
+
 </style>

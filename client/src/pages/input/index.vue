@@ -1,7 +1,6 @@
 <template>
   <div>
-    <p>Detail</p>
-    <p>Username: {{ $store.state.system.username }}</p>
+    Input
   </div>
 </template>
 
@@ -9,6 +8,10 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'Detail',
+  name: 'Input',
 });
 </script>
+
+<style lang="scss" scoped>
+
+</style>
