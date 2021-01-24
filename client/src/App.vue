@@ -1,19 +1,21 @@
 <template>
-  <div>
-    <div>App</div>
-    <router-link to="/home">Go to Home</router-link>
-    <router-link to="/detail">Go to Detail</router-link>
-    <router-view />
-  </div>
+  <mk-layout />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import MkLayout from '@layouts/mk-layout.vue';
 
 export default defineComponent({
   name: 'App',
+  components: {
+    MkLayout,
+  },
 });
 </script>
 
 <style>
+#app {
+  height: 100vh;
+}
 </style>
