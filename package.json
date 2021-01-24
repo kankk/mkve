@@ -1,7 +1,7 @@
 {
   "name": "mkve",
   "version": "1.0.0",
-  "description": "`Vue3` + `TypeScript` + `Element-Plus` 搭建的项目",
+  "description": "`Vue3` + `TypeScript` + `Antd-Vue` 搭建的项目",
   "scripts": {
     "lint:commands": "cd commands && eslint --ext .js,.ts . --fix && cd ..",
     "lint:client": "cd client && eslint --ext .js,.ts,.vue ./src --fix && cd ..",
