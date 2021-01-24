@@ -1,7 +1,7 @@
 <template>
-  <el-main>
+  <a-layout class="mk-content">
     Content
-  </el-main>
+  </a-layout>
 </template>
 
 <script lang="ts">
@@ -12,6 +12,7 @@ export default defineComponent({
 });
 </script>
 
-<style lang="scss" scoped>
-
+<style lang="scss">
+.mk-content {
+}
 </style>

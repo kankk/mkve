@@ -1,5 +1,7 @@
 <template>
-  <el-header>Header</el-header>
+  <a-layout-header class="mk-header">
+    Header
+  </a-layout-header>
 </template>
 
 <script lang="ts">
@@ -9,3 +11,9 @@ export default defineComponent({
   name: 'MkHeader',
 });
 </script>
+
+<style lang="scss" scoped>
+.mk-header {
+  height: 40px;
+}
+</style>

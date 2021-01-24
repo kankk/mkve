@@ -1,5 +1,7 @@
 <template>
-  <el-aside width="200px">Aside</el-aside>
+  <a-layout-sider class="mk-aside">
+    Aside
+  </a-layout-sider>
 </template>
 
 <script lang="ts">
@@ -11,5 +13,7 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-
+.mk-aside {
+  width: 200px
+}
 </style>

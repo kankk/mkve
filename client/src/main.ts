@@ -1,8 +1,8 @@
 import { createApp } from 'vue';
-import ElementPlus from 'element-plus';
+import Antd from 'ant-design-vue';
 import App from './App.vue';
-import '@styles/preset.scss';
-import 'element-plus/lib/theme-chalk/index.css';
+
+import 'ant-design-vue/dist/antd.css';
 
 import router from './routers';
 import store from './store';
@@ -16,8 +16,8 @@ app.use(router);
 // 注册 vuex
 app.use(store);
 
-// 注册 Element-Plus
-app.use(ElementPlus);
+// 注册 Antd-Vue
+app.use(Antd);
 
 // 渲染模板
 app.mount('#app');

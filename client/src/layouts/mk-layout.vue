@@ -1,11 +1,11 @@
 <template>
-  <el-container direction="vertical" class="layout-container">
+  <a-layout direction="vertical" class="mk-layout">
     <mk-header />
-    <el-container direction="horizontal">
+    <a-layout direction="horizontal">
       <mk-aside />
       <mk-content />
-    </el-container>
-  </el-container>
+    </a-layout>
+  </a-layout>
 </template>
 
 <script lang="ts">
@@ -24,8 +24,8 @@ export default defineComponent({
 });
 </script>
 
-<style lang="scss">
-.layout-container {
+<style lang="scss" scoped>
+.mk-layout {
   height: 100%;
 }
 </style>
