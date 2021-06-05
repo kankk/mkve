@@ -3,6 +3,7 @@ import { RouteRecordRaw } from 'vue-router';
 
 import Button from '@pages/button/index.vue';
 import Input from '@pages/input/index.vue';
+import Grid from '@pages/grid/index.vue';
 
 /**
  * 定义一级路由对象类型
@@ -46,6 +47,19 @@ const routes: FirstRoute[] = [
         name: '输入框',
         path: '/input',
         component: Input,
+      },
+    ],
+  },
+  {
+    id: 'layout',
+    name: '布局',
+    path: '/layout',
+    children: [
+      {
+        id: 'grid',
+        name: 'Grid 布局',
+        path: '/grid',
+        component: Grid,
       },
     ],
   },
